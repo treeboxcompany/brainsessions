@@ -1,0 +1,237 @@
+@font-face{
+	font-family: 'hk-bold';;
+	src: url('fonts/hkgrotesk-bold-webfont.woff') format('woff'),
+	     url('fonts/hkgrotesk-bold-webfont.woff2') format('woff')
+}
+
+@font-face{
+	font-family: 'hk-light';;
+	src: url('fonts/hkgrotesk-light-webfont.woff') format('woff'),
+	     url('fonts/hkgrotesk-light-webfont.woff2') format('woff')
+}
+
+@font-face{
+	font-family: 'hk-medium';;
+	src: url('fonts/hkgrotesk-medium-webfont.woff') format('woff'),
+	     url('fonts/hkgrotesk-medium-webfont.woff2') format('woff')
+}
+
+@font-face{
+	font-family: 'hk-regular';;
+	src: url('fonts/hkgrotesk-regular-webfont.woff') format('woff'),
+	     url('fonts/hkgrotesk-regular-webfont.woff2') format('woff')
+}
+
+footer{
+	padding: 2em 0;
+}
+
+html, body, form{
+	height: 100%;
+	padding: 0px;
+	font-size: 18px;
+}
+
+h1, .button{
+  font-family: 'hk-bold', helvetica, arial, sans-serif;
+  line-height: 1.1em;
+}
+
+h2{
+  font-family: 'hk-regular', helvetica, arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+
+h3{
+  font-family: 'hk-bold', helvetica, arial, sans-serif;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+i{
+  font-size: 1.3em;
+  margin-top: -4px;
+}
+
+p{
+  font-family: 'hk-regular', helvetica, arial, sans-serif;
+  font-size: .9em;
+}
+
+#benefits-content, #howto-content{
+  padding: 2em  0 0;
+  background: #fff;
+}
+
+#benefits-content h2{
+	color: #EF6954 !important;
+}
+
+#benefits-content .b-black{
+	border-color: #EF6954;
+}
+
+#benefits-content .bg-guitar{
+  background: url('../img/bg-2.png') no-repeat ;
+  height: 549px;
+  width: 419px;
+  position: absolute;
+  float: right;
+  right: 0;
+}
+
+#menu-content{
+  background: transparent;
+}
+
+#menu-content ul li a{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .85em;
+  font-family: 'hk-bold', helvetica, arial, sans-serif;
+  transition: 0.25s ease-out;
+  margin-top: 4px;
+}
+
+#main-content{
+  background: #000 url('../img/background-main-clases-de-guitarra.jpg') no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 88%;
+  min-height: 600px;
+  max-height: 700px;
+}
+
+#main-content h1, #main-content h2, #prices-content h2, #faqs-content h2{
+  color: #fff;
+}
+
+#copy{
+  margin-top: 4em;
+}
+
+#howto-content h2, #stories-content h2, #benefits-content h2, #prices-content h2, #faqs-content h2{
+  color: #F5B019;
+	font-size: 2em;
+	font-family: 'hk-bold', helvetica, arial, sans-serif;
+	margin-bottom:  0em;
+
+
+}
+
+#howto-content .bg-guitar{
+  background: url('../img/bg.png') no-repeat ;
+  height: 549px;
+  width: 419px;
+  position: absolute;
+  float: right;
+  right: 0;
+}
+
+#prices-content, #faqs-content{
+	background: #383838;
+	color: #fff;
+	padding: 2em 0;
+}
+
+#prices-content h2, #faqs-content h2{
+	color: #fff;
+}
+
+#stories-content{
+  background: #22252B url('../img/testimoniales.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 4em 0;
+  background-position: center;
+  height: 92%;
+}
+
+#stories-content a{
+  color: #fff;
+}
+
+#stories-content h2{
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+#stories-content h4{
+  font-family: 'hk-bold', helvetica, arial, sans-serif;
+  font-size: 2.6em;
+  line-height: 12px;
+  text-align: center;
+}
+
+#stories-content h4 span{
+  font-size: 15px;
+}
+
+#stories-content .video-testimonial{
+  background: url('../img/video-testimonial.png') no-repeat ;
+  height: 481px;
+  width: 525px;
+  position: absolute;
+  float: left;
+  left:  0;
+}
+
+.b-main{
+  margin-left: 16px;
+}
+
+.b-black{
+  color: #383838;
+  margin-top: .6em;
+  width: 16em;
+}
+.button{
+  border: 4px solid #F5B019;
+  border-radius: 100px;
+  background: transparent;
+  font-size: 1em ;
+}
+
+.button:hover{
+  background:transparent;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.callout{
+  border: 0;
+  background: transparent;
+  padding: 1rem 0rem;
+}
+
+.icon-brainsessionshq, .icon-brainsessionsamp{
+  display: block;
+  text-align: center;
+  margin: 0em auto -.1em;
+  z-index: 1;
+  position: relative;
+}
+
+.icon-brainsessionshq{
+  background: url('../img/brainsessionhq.svg') no-repeat;
+	height: 187px;
+  width: 185px;
+}
+.icon-brainsessionsamp{
+	background: url('../img/brainsessionamp.svg') no-repeat;
+	height: 165px;
+	width: 207px;
+	margin-bottom: -5px;
+}
+.button-down{
+	background: url('../img/button-down.svg') no-repeat;
+	height: 71px;
+	width: 70px;
+	position: absolute;
+	bottom: 2.3em;
+	left: 21%;
+}
