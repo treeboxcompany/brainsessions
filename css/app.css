@@ -137,6 +137,7 @@ p{
 
 #prices-content h2, #faqs-content h2{
 	color: #fff;
+	margin-bottom: 1em;
 }
 
 #stories-content{
@@ -235,3 +236,69 @@ p{
 	bottom: 2.3em;
 	left: 21%;
 }
+
+.pricing-table {
+  background: #F9FAFB;
+	border-radius: 10px;
+	box-shadow: 0 9px 10px 0 rgba(0,0,0,0.20);
+	}
+  .pricing-table li {
+		color:#333333;
+		font-family: 'hk-regular', helvetica, arial, sans-serif;
+		font-size: 1em;
+    padding: .2em; }
+		.pricing-table li:first-child {
+      padding:  .5em; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+	.pricing-table .fi-check{
+		color: #3EBFC0;}
+	.pricing-table .fi-x{
+		color: #EF6954;}
+	.pricing-table .lessons{
+		font-family: 'hk-bold', helvetica, arial, sans-serif;
+		margin-top: .5em;
+	}
+	.pricing-table .month{
+		font-size: .8em;
+		font-family: 'hk-bold', helvetica, arial, sans-serif;
+		margin-top: -1.6em;
+	}
+	.pricing-table .title {
+		font-family: 'hk-bold', helvetica, arial, sans-serif;
+		background-color: #383838;
+    color: #fff;
+    font-size: 2em;
+    border-bottom: 0;
+		padding: 0;}
+  .pricing-table .price {
+		font-family: 'hk-bold', helvetica, arial, sans-serif;
+    background-color: #F9FAFB;
+    color: #333333;
+    font-size: 2em;
+    border-bottom: 0;
+	 }
+  .pricing-table .button {
+			border: 4px solid #333;
+			color:#333;
+			width: 80%;
+			margin: 2em 0 1.5em;
+			font-size: 1.1em;
+			}
+.pricing-star{
+	background: #EF6954;
+	color: #fff;
+	margin-top: 2em;
+}
+	.pricing-star .price, .pricing-star .title, .pricing-star li {
+		background: #EF6954;
+		color: #fff;
+		border-radius: 6px;
+	}
+	.pricing-star .price{
+		margin-top: -.5em;
+	}
+	.pricing-star .button{
+		border: 4px solid #fff;
+		color: #fff;
+	}
