@@ -50,6 +50,11 @@ footer .brand-center{
 
 footer .copyright{
 	margin-top: 2em;
+	font-size: .7em
+}
+footer .copyright a{
+	color: #383838;
+
 }
 
 html, body, form{
@@ -84,6 +89,11 @@ p{
   font-family: 'hk-regular', helvetica, arial, sans-serif;
   font-size: .9em;
 }
+
+small{
+	font-weight: 700;
+}
+
 
 #benefits-content, #howto-content{
   padding: 2em  0 0;
@@ -191,12 +201,27 @@ p{
 }
 
 #howto-content .bg-guitar{
-  background: url('../img/bg.png') no-repeat ;
+  background: url('../img/bg.png') no-repeat 100%;
   height: 549px;
   width: 419px;
   position: absolute;
   float: right;
   right: 0;
+}
+
+#offCanvas{
+	background: #383838;
+	color: #fff;
+}
+
+#offCanvas li a{
+	color: #fff;
+	font-weight: 700;
+}
+
+#offCanvas .button{
+	width: 70%;
+	margin: 5% 0 0 5% ;
 }
 
 #prices-content{
@@ -221,7 +246,7 @@ p{
   color: #fff;
   padding: 4em 0;
   background-position: center;
-  height: 100%;
+  height: 600px;
 }
 
 #stories-content a{
@@ -241,7 +266,8 @@ p{
 }
 
 #stories-content h4 span{
-  font-size: 15px;
+  font-size: .3em;
+  line-height: 10px;
 }
 
 #stories-content ul{
@@ -255,9 +281,9 @@ p{
 	color: #F5B11A;
 }
 #stories-content .video-testimonial{
-  background: url('../img/video-testimonial.png') no-repeat;
+  background: url('../img/video-testimonial.png') no-repeat 100%;
   height: 481px;
-  width: 525px;
+  width: 470px;
   position: absolute;
   float: left;
   left:  0;
@@ -312,7 +338,7 @@ p{
 .bx-wrapper .bx-viewport, .bx-wrapper .bx-loading {
 	box-shadow: none;
 	border: 0;
-	padding: 2em 0;
+	padding: 1em 0 0;
 	background: transparent;
 
 }
@@ -422,3 +448,85 @@ p{
 		border: 4px solid #fff;
 		color: #fff;
 	}
+
+.small-menu{
+	border: 2px solid #fff;
+	border-radius: 6px;
+}
+
+
+@media print, screen and (max-width: 59em) {
+	h1{
+		font-size: 2.5em;
+	}
+	#main-content{
+		height: 80%;
+	}
+	#stories-content .video-testimonial{
+		width: 370px;
+	}
+	#stories-content h4{
+		font-size: 2.2em;
+	}
+	#stories-content ul li{
+		font-size: 11px;
+		letter-spacing: -0.5em;
+	}
+	#stories-content .testimoniales p{
+		font-size: 1.2em;
+	}
+	.bx-wrapper .bx-viewport, .bx-wrapper .bx-loading{
+		padding: 1em 0 0;
+	}
+	.container{
+		padding: 1em;
+	}
+	.menu li{
+		 font-size: .8em;
+	}
+}
+
+@media print, screen and (max-width: 30em){
+	h1{
+		font-size: 2em;
+	}
+	#copy{
+		margin: 0;
+	}
+	.button{
+		margin: 0;
+		width: 100%
+	}
+	#main-content h2{
+		line-height: 1.2em;
+	}
+	#howto-content .bg-guitar, #stories-content .video-testimonial, #benefits-content .bg-guitar{
+		display: none;
+	}
+	#benefits-content, #howto-content{
+		padding: 1em 0 0;
+	}
+	#stories-content{
+		padding: 1em 0;
+	}
+	#stories-content h2{
+		text-align: center;
+	}
+	#stories-content h4{
+		font-size: 1.6em;
+	}
+	#stories-content h4 span{
+		font-size: .4em;
+	}
+	#howto-content h2, #stories-content h2, #benefits-content h2, #prices-content h2, #faqs-content h2{
+		    line-height: 1em;
+	}
+	#faqs-content p{
+		font-size: 1.1em;
+		line-height: 1.1em;
+	}
+	#stories-content .testimoniales p{
+		font-size: 1.2em;
+		line-height: 1.2em;
+	}
+}
