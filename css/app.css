@@ -23,7 +23,33 @@
 }
 
 footer{
-	padding: 2em 0;
+	padding: 2em 0 1em;
+}
+
+footer h5{
+	font-size: 1.33rem;
+	font-weight: 700;
+}
+
+footer ul{
+	margin: 0;
+}
+
+footer ul li{
+	list-style: none;
+	font-size: .8em;
+}
+
+footer ul li a{
+	color: #383838;
+}
+
+footer .brand-center{
+	padding: 2em 0 0;
+}
+
+footer .copyright{
+	margin-top: 2em;
 }
 
 html, body, form{
@@ -81,6 +107,52 @@ p{
   right: 0;
 }
 
+
+#faqs-content{
+	padding: 0 0 2em 0
+}
+
+
+#faqs-content a{
+	color: #fff;
+}
+
+
+#faqs-content .button{
+	display: block;
+	margin: 2em auto 1em;
+	float: none;
+	width: 260px;
+}
+
+#faqs-content h4{
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+
+#faqs-content p{
+	font-size: 1em;
+}
+
+
+#faqs-content ul{
+	padding: 0 c1em 1em 1em;
+}
+
+#faqs-content ul li{
+	border: 2px solid #fff;
+	border-top: 0;
+}
+	#faqs-content ul li:first-child{
+			border-top: 2px solid #fff;
+			border-radius: 6px 6px 0 0;
+	}
+
+	#faqs-content ul li:last-child{
+			border-radius: 0 0 6px 6px ;
+	}
+
 #menu-content{
   background: transparent;
 }
@@ -116,8 +188,6 @@ p{
 	font-size: 2em;
 	font-family: 'hk-bold', helvetica, arial, sans-serif;
 	margin-bottom:  0em;
-
-
 }
 
 #howto-content .bg-guitar{
@@ -129,10 +199,13 @@ p{
   right: 0;
 }
 
+#prices-content{
+	padding: 2em 0;
+}
+
 #prices-content, #faqs-content{
 	background: #383838;
 	color: #fff;
-	padding: 2em 0;
 }
 
 #prices-content h2, #faqs-content h2{
@@ -140,13 +213,15 @@ p{
 	margin-bottom: 1em;
 }
 
+
+
 #stories-content{
   background: #22252B url('../img/testimoniales.jpg') no-repeat;
   background-size: cover;
   color: #fff;
   padding: 4em 0;
   background-position: center;
-  height: 92%;
+  height: 100%;
 }
 
 #stories-content a{
@@ -169,8 +244,18 @@ p{
   font-size: 15px;
 }
 
+#stories-content ul{
+	margin: -.3em 0 0 0;
+}
+#stories-content ul li{
+	display: inline-block;
+	font-size: 16px;
+	margin: 0;
+	letter-spacing: -.3em;
+	color: #F5B11A;
+}
 #stories-content .video-testimonial{
-  background: url('../img/video-testimonial.png') no-repeat ;
+  background: url('../img/video-testimonial.png') no-repeat;
   height: 481px;
   width: 525px;
   position: absolute;
@@ -178,6 +263,9 @@ p{
   left:  0;
 }
 
+#stories-content .b-black{
+	margin-top: -.5em;
+}
 .b-main{
   margin-left: 16px;
 }
@@ -196,6 +284,40 @@ p{
 
 .button:hover{
   background:transparent;
+}
+
+.button-down{
+	background: url('../img/button-down.svg') no-repeat;
+	height: 71px;
+	width: 70px;
+	position: absolute;
+	bottom: 2.3em;
+	left: 21%;
+}
+.brand-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.bxslider p{
+	letter-spacing: normal;
+	color: #fff;
+	font-size: 1em;
+}
+
+.bxslider .stars li{
+	letter-spacing: .4em !important;
+}
+
+.bx-wrapper .bx-viewport, .bx-wrapper .bx-loading {
+	box-shadow: none;
+	border: 0;
+	padding: 2em 0;
+	background: transparent;
+
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #fff;
 }
 
 .container{
@@ -228,14 +350,12 @@ p{
 	width: 207px;
 	margin-bottom: -5px;
 }
-.button-down{
-	background: url('../img/button-down.svg') no-repeat;
-	height: 71px;
-	width: 70px;
-	position: absolute;
-	bottom: 2.3em;
-	left: 21%;
+
+
+.is-accordion-submenu-parent > a::after{
+	 border-color: #F16956 transparent transparent;
 }
+
 
 .pricing-table {
   background: #F9FAFB;
